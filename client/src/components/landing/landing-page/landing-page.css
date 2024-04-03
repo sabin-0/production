@@ -1,0 +1,96 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9B872;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #F9B872;
+    color: #fff;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.login-section {
+    background-color:  #FAE7A5;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+/*button starts*/
+
+button#admin-login-btn {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background-color: #B6E1E7;
+    color: #4d4f4d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+button#admin-login-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button#admin-login-btn:focus {
+    outline: none;
+}
+
+button#admin-login-btn:active {
+    transform: scale(0.95);
+}
+
+/*button ends*/
+
+
+/*fetures start*/
+
+.features-section {
+    background-color: #FAE7A5;
+    border-radius: 10px;
+    background-image: url('../landing-page/landing-page-image/landing-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 40px;
+    height : 500px;
+}
+
+.features-section .container {
+    margin-top: 160px;
+}
+
+.features-section h2 {
+    margin-top: 0;
+}
+
+.features-section p {
+    font-size: 16px;
+}
+
+.features-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/*features end*/

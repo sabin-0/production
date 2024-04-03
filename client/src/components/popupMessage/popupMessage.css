@@ -1,0 +1,43 @@
+.popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-message p {
+    margin-bottom: 20px;
+  }
+  
+  .popup-message button {
+    padding: 8px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .popup-message button:hover {
+    background-color: #0056b3;
+  }
+  
+  .popup-message.error button {
+    background-color: #dc3545;
+  }
+  
+  .popup-message.error button:hover {
+    background-color: #c82333;
+  }
+  
